@@ -1,7 +1,7 @@
 const Menu = document.querySelector('.header__menu')
 const IconMenu = document.querySelector('.header__IconMenu')
 
-const MenuChange = (e)=>{
+const MenuChange = ()=>{
   if(!Menu.classList.contains('active')){
     Menu.classList.add('active')
     IconMenu.setAttribute('src','images/icon-close.svg')
